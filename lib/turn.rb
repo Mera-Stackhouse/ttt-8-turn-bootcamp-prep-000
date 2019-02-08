@@ -50,7 +50,7 @@ def turn(board)
       puts "Invalid input. Please try again."
     end 
   end 
-  turn(board)
+  #turn(board)
 end  
 
 
