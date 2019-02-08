@@ -40,13 +40,16 @@ end
 def turn(board)
   loop do
     puts "Type 1-9 for where you want to go:"
-  input = gets.strip
-  index = input_to_index(input)
-  if (valid_move?(board, index) == true)
-    move(board,index)
-    display_board(board)
-    break
-  end 
+    input = gets.strip
+    index = input_to_index(input)
+    if (valid_move?(board, index) == true)
+      move(board,index)
+      display_board(board)
+      break
+    else
+      puts "Invalid input. Please try again"
+    end 
+  end  
 end  
 
 
