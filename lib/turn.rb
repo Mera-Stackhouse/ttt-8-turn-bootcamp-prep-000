@@ -47,7 +47,7 @@ def turn(board)
       display_board(board)
       break
     else
-      puts "Invalid input. Please try again"
+      puts "Invalid input. Please try again."
     end 
   end  
 end  
