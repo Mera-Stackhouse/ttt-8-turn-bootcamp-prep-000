@@ -38,7 +38,10 @@ def move(board, index, token = "X")
 end  
 
 def turn 
-  
+  puts "Type 1-9 for where you want to go:"
+  input = gets.strip
+  index = input_to_index(input)
+  display_board()
 end  
 
 
