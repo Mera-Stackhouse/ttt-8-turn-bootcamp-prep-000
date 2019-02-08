@@ -37,6 +37,15 @@ def move(board, index, token = "X")
   puts token
 end  
 
+def turn 
+  
+end  
+
+
+
+
+
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 move(board, 0, "O")
 move(board, 8, "X")
