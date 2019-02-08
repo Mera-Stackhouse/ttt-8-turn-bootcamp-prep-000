@@ -49,7 +49,8 @@ def turn(board)
     else
       puts "Invalid input. Please try again."
     end 
-  end  
+  end 
+  turn(board)
 end  
 
 
