@@ -57,7 +57,3 @@ end
 
 
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-move(board, 0, "O")
-move(board, 8, "X")
-puts display_board(board)
